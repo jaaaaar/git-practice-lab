@@ -5,7 +5,7 @@ def subtract(a, b):
     return a - b
 
 if __name__ == "__main__":
-    print("Calculator: 2 + 3 =", add(2, 3))
+    print("CALC RESULT: 2 + 3 =", add(2, 3))
 
 def multiply(a, b):
     return a * b
