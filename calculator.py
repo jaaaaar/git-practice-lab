@@ -4,9 +4,6 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-if __name__ == "__main__":
-    print("CALC RESULT: 2 + 3 =", add(2, 3))
-
 def multiply(a, b):
     return a * b
 
@@ -14,5 +11,6 @@ def divide(a, b):
     if b != 0:
         return a / b
     return 'Error: Division by zero'
-        return a / b
-    return 'Error: Division by zero'
+
+if __name__ == "__main__":
+    print("Kalkulaator: 2 + 3 =", add(2, 3))
